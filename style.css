@@ -1,5 +1,5 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Reset Styles */
 * {
@@ -8,50 +8,52 @@
     box-sizing: border-box;
 }
 
-/* Body Styling - Gradient Background */
+/* Body Styling */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #ffdde1);
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
+    padding: 20px;
 }
 
 /* Main Container */
 .container {
-    background: white;
+    background: #ffffff;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    max-width: 400px;
+    width: 100%;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Add a little bounce effect on hover */
 .container:hover {
     transform: scale(1.05);
 }
 
 /* Heading */
 h1 {
-    font-size: 26px;
-    color: #ff4081; /* Pinkish color */
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 /* Paragraph */
 p {
     font-size: 16px;
-    color: #444;
+    color: #666;
     margin-bottom: 20px;
 }
 
-/* Button Styling */
+/* Button */
 button {
     background: linear-gradient(135deg, #ff758c, #ff7eb3);
     color: white;
-    padding: 15px 25px;
+    padding: 15px 30px;
     font-size: 18px;
     border: none;
     border-radius: 8px;
@@ -60,7 +62,6 @@ button {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Button Hover Effect */
 button:hover {
     background: linear-gradient(135deg, #ff5e7e, #ff7ea8);
     transform: translateY(-2px);
