@@ -1,4 +1,14 @@
-/* General Styling */
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
@@ -6,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    text-align: center;
 }
 
 /* Main Container */
@@ -14,21 +24,18 @@ body {
     background: white;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    max-width: 400px;
-    width: 90%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
     transition: transform 0.3s ease-in-out;
 }
 
 .container:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 /* Heading */
 h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 26px;
     color: #333;
 }
 
@@ -36,7 +43,7 @@ h1 {
 p {
     font-size: 16px;
     color: #666;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 
 /* Button */
