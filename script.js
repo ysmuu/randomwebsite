@@ -3,7 +3,7 @@ document.getElementById('randomWebsiteButton').addEventListener('click', () => {
         .then(response => response.json())
         .then(data => {
             const randomWebsite = data[Math.floor(Math.random() * data.length)];
-            window.open(randomWebsite, '_blank'); // Opens in a new tab
+            window.open(randomWebsite, '_blank');
         })
         .catch(error => {
             console.error('Error fetching website data:', error);
